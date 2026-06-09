@@ -1,0 +1,87 @@
+PHONE IMAGE SOURCES AND MODEL MAPPING
+=====================================
+
+All product pictures are stored locally in assets/phones/. The website does not
+need an internet connection to display them.
+
+The phone design and model family were checked against Apple's official
+Newsroom product announcements:
+
+- iPhone XR
+  https://www.apple.com/newsroom/2018/09/apple-introduces-iphone-xr/
+
+- iPhone 11
+  https://www.apple.com/newsroom/2019/09/apple-introduces-dual-camera-iphone-11/
+
+- iPhone 11 Pro and iPhone 11 Pro Max
+  https://www.apple.com/newsroom/2019/09/iphone-11-pro-and-iphone-11-pro-max-the-most-powerful-and-advanced-smartphones/
+
+- iPhone 12
+  https://www.apple.com/newsroom/2020/10/apple-announces-iphone-12-and-iphone-12-mini-a-new-era-for-iphone-with-5g/
+
+- iPhone 12 Pro and iPhone 12 Pro Max
+  https://www.apple.com/newsroom/2020/10/apple-introduces-iphone-12-pro-and-iphone-12-pro-max-with-5g/
+
+- iPhone 13
+  https://www.apple.com/newsroom/2021/09/apple-introduces-iphone-13-and-iphone-13-mini/
+
+- iPhone 13 Pro and iPhone 13 Pro Max
+  https://www.apple.com/newsroom/2021/09/apple-unveils-iphone-13-pro-and-iphone-13-pro-max-more-pro-than-ever-before/
+
+- iPhone 14
+  https://www.apple.com/newsroom/2022/09/apple-introduces-iphone-14-and-iphone-14-plus/
+
+- iPhone 14 Pro and iPhone 14 Pro Max
+  https://www.apple.com/newsroom/2022/09/apple-debuts-iphone-14-pro-and-iphone-14-pro-max/
+
+- iPhone 15
+  https://www.apple.com/newsroom/2023/09/apple-debuts-iphone-15-and-iphone-15-plus/
+
+- iPhone 15 Pro and iPhone 15 Pro Max
+  https://www.apple.com/newsroom/2023/09/apple-unveils-iphone-15-pro-and-iphone-15-pro-max/
+
+- iPhone 16
+  https://www.apple.com/newsroom/2024/09/apple-introduces-iphone-16-and-iphone-16-plus/
+
+- iPhone 16 Pro and iPhone 16 Pro Max
+  https://www.apple.com/newsroom/2024/09/apple-debuts-iphone-16-pro-and-iphone-16-pro-max/
+
+- iPhone 17
+  https://www.apple.com/newsroom/2025/09/apple-debuts-iphone-17/
+
+- iPhone 17 Pro and iPhone 17 Pro Max
+  https://www.apple.com/newsroom/2025/09/apple-unveils-iphone-17-pro-and-iphone-17-pro-max/
+
+EXACT LOCAL FILES
+-----------------
+
+assets/phones/iphone-xr.png
+assets/phones/iphone-11.png
+assets/phones/iphone-11-pro.png
+assets/phones/iphone-11-pro-max.png
+assets/phones/iphone-12.png
+assets/phones/iphone-12-pro.png
+assets/phones/iphone-12-pro-max.png
+assets/phones/iphone-13.png
+assets/phones/iphone-13-pro.png
+assets/phones/iphone-13-pro-max.png
+assets/phones/iphone-14.png
+assets/phones/iphone-14-pro.png
+assets/phones/iphone-14-pro-max.png
+assets/phones/iphone-15.png
+assets/phones/iphone-15-pro.png
+assets/phones/iphone-15-pro-max.png
+assets/phones/iphone-16.png
+assets/phones/iphone-16-pro.png
+assets/phones/iphone-16-pro-max.png
+assets/phones/iphone-17.png
+assets/phones/iphone-17-pro.png
+assets/phones/iphone-17-pro-max.png
+
+Storage capacities such as 64GB, 128GB and 256GB do not change a model's
+physical appearance, so listings with different storage use the same exact
+model picture.
+
+For Pro and Pro Max pairs, the correct generation's Pro-family render is used
+in separate files. The Pro Max file is displayed at a larger scale to represent
+the larger physical model while preserving the correct camera and body design.

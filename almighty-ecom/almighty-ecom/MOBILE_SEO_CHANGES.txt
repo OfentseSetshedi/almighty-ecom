@@ -1,0 +1,13 @@
+ALMIGHTY ECOM — MOBILE AND SEO CHANGES
+=====================================
+- Added responsive mobile navigation and small-screen layout fixes.
+- Added a mobile WhatsApp shortcut.
+- Added accessible focus states, a skip link and modal keyboard controls.
+- Added unique SEO titles, descriptions, canonical links and social metadata.
+- Added Organization, WebSite and ItemList JSON-LD structured data.
+- Added Render-generated robots.txt and sitemap.xml files.
+- Added a crawlable text catalogue to the price-list page.
+- Added WebP image variants, explicit image dimensions and lazy loading.
+- Added a social preview, favicons, manifest, 404 page and cache headers.
+- Formatted and cleaned all website source files for GitHub deployment.
+- Kept all original product names, prices, phone pictures and WhatsApp numbers.
