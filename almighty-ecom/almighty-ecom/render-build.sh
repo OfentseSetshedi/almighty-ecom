@@ -15,6 +15,7 @@ readonly -a HTML_FILES=(
   "about.html"
   "contact.html"
   "404.html"
+  "googleb4578414c948e172.html"
 )
 
 readonly -a STATIC_FILES=(
