@@ -1,0 +1,24 @@
+ALMIGHTY ECOM — FINAL QUALITY CHECKS
+===================================
+
+Passed checks:
+- All HTML, CSS, JavaScript, JSON, YAML and shell files are consistently formatted.
+- Six public pages are included: Home, Shop, Price List, Trade-In, About and Contact.
+- Twenty-two exact iPhone model PNG image fallbacks are included.
+- Twenty-two matching 500px and twenty-two matching 1000px WebP images are included.
+- No missing local HTML, CSS, JavaScript, image, manifest or page references were found.
+- No duplicate HTML element IDs were found.
+- JavaScript syntax validation passed.
+- Shell-script syntax validation passed.
+- Render YAML and web-manifest parsing passed.
+- The Render build completed successfully in a clean test environment.
+- The generated sitemap contains all six public page URLs.
+- Structured-data JSON parsed successfully.
+- Each public page has a title, description, robots tag, canonical link and social metadata.
+- The generated dist folder is excluded from GitHub to prevent duplicate source files.
+
+Final external checks after deployment:
+- Test the live Render website on a mobile phone.
+- Test at least one WhatsApp order button.
+- Open /robots.txt and /sitemap.xml using the live Render URL.
+- Add the live URL to Google Search Console and submit /sitemap.xml.

@@ -1,0 +1,8 @@
+# Render creates this folder during deployment.
+dist/
+
+# Local editor and operating-system files.
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

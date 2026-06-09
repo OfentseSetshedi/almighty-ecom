@@ -1,0 +1,160 @@
+<!doctype html>
+
+<html lang="en-ZA">
+  <head>
+    <title>Shop iPhones in South Africa | Almighty eCom</title>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1, viewport-fit=cover" name="viewport" />
+    <meta
+      content="Browse iPhone models and prices from Almighty eCom. Filter by model and budget, then confirm stock and order through WhatsApp."
+      name="description"
+    />
+    <meta
+      content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+      name="robots"
+    />
+    <meta content="#050403" name="theme-color" />
+    <meta content="dark" name="color-scheme" />
+    <meta content="telephone=no" name="format-detection" />
+    <meta content="Almighty eCom" property="og:site_name" />
+    <meta content="website" property="og:type" />
+    <meta content="Shop iPhones | Almighty eCom" property="og:title" />
+    <meta
+      content="Browse iPhone models and prices from Almighty eCom. Filter by model and budget, then confirm stock and order through WhatsApp."
+      property="og:description"
+    />
+    <meta content="/shop.html" property="og:url" />
+    <meta content="/assets/social-preview.jpg" property="og:image" />
+    <meta content="1200" property="og:image:width" />
+    <meta content="630" property="og:image:height" />
+    <meta content="Almighty eCom iPhone deals in South Africa" property="og:image:alt" />
+    <meta content="summary_large_image" name="twitter:card" />
+    <meta content="Shop iPhones | Almighty eCom" name="twitter:title" />
+    <meta
+      content="Browse iPhone models and prices from Almighty eCom. Filter by model and budget, then confirm stock and order through WhatsApp."
+      name="twitter:description"
+    />
+    <meta content="/assets/social-preview.jpg" name="twitter:image" />
+    <link href="/shop.html" rel="canonical" />
+    <link href="/assets/favicon-32.png" rel="icon" sizes="32x32" type="image/png" />
+    <link href="/assets/apple-touch-icon.png" rel="apple-touch-icon" />
+    <link href="/site.webmanifest" rel="manifest" />
+    <link href="https://fonts.googleapis.com" rel="preconnect" />
+    <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link href="style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">Skip to main content</a>
+    <div class="gold-glow glow-1"></div>
+    <div class="gold-glow glow-2"></div>
+    <header class="site-header">
+      <a aria-label="Almighty eCom home" class="brand" href="index.html"
+        ><img
+          alt="Almighty eCom trolley logo"
+          class="logo"
+          decoding="async"
+          height="195"
+          src="assets/logo.png"
+          width="195"
+        /><span><strong>Almighty</strong> eCom</span></a
+      >
+      <button
+        aria-controls="navMenu"
+        aria-expanded="false"
+        aria-label="Open navigation menu"
+        class="menu-toggle"
+        id="menuToggle"
+        type="button"
+      >
+        ☰
+      </button>
+      <nav aria-label="Main navigation" class="nav" id="navMenu">
+        <a href="index.html">Home</a><a class="active" href="shop.html">Shop iPhones</a
+        ><a href="price-list.html">Price List</a><a href="trade-in.html">Trade-In</a
+        ><a href="about.html">About</a><a href="contact.html">Contact</a>
+      </nav>
+      <a class="whatsapp-top" id="topWhatsapp" rel="noopener" target="_blank"
+        >☏ Order via WhatsApp</a
+      >
+    </header>
+    <main id="main-content" tabindex="-1">
+      <section class="page-hero compact">
+        <p class="eyebrow">Shop Almighty eCom</p>
+        <h1><span>Shop</span> iPhones</h1>
+        <p>Search, filter and WhatsApp us to confirm availability before ordering.</p>
+      </section>
+      <section class="section" id="shop">
+        <p class="catalogue-intro">
+          Browse iPhone XR, iPhone 11, 12, 13, 14, 15, 16 and 17 ranges, including Pro and Pro Max
+          models. Prices are in South African rand.
+        </p>
+        <div class="toolbar">
+          <label class="search-box"
+            ><span>Search</span
+            ><input
+              id="searchInput"
+              placeholder="Search iPhone 15, Pro Max, 128GB..."
+              type="search"
+          /></label>
+          <label class="select-box"
+            ><span>Category</span
+            ><select id="categoryFilter">
+              <option value="all">All iPhones</option>
+            </select></label
+          >
+          <label class="select-box"
+            ><span>Sort</span
+            ><select id="sortSelect">
+              <option value="featured">Featured</option>
+              <option value="low">Price: Low to High</option>
+              <option value="high">Price: High to Low</option>
+            </select></label
+          >
+        </div>
+        <div class="product-grid" id="productGrid"></div>
+      </section>
+    </main>
+    <footer class="footer">
+      <img
+        alt="Almighty eCom trolley logo"
+        decoding="async"
+        height="195"
+        src="assets/logo.png"
+        width="195"
+      />
+      <div>
+        <h3>Almighty eCom</h3>
+        <p>Premium iPhones, trusted deals, factory sealed devices, and fast nationwide delivery.</p>
+      </div>
+      <p class="footer-note">
+        Almighty eCom is an independent seller and is not affiliated with Apple Inc. Product
+        availability, colour and specifications must be confirmed before ordering.
+      </p>
+    </footer>
+    <div aria-hidden="true" class="order-modal" id="orderModal">
+      <div class="modal-card">
+        <button aria-label="Close" class="close-modal" id="closeModal">×</button>
+        <h3 id="modalTitle">Order iPhone</h3>
+        <p id="modalPrice"></p>
+        <label>Your name<input id="customerName" placeholder="Enter your name" /></label
+        ><label>Your location<input id="customerLocation" placeholder="City / area" /></label
+        ><a class="btn primary full" id="modalWhatsapp" rel="noopener" target="_blank"
+          >Send WhatsApp Order</a
+        >
+      </div>
+    </div>
+    <a
+      aria-label="Order through WhatsApp"
+      class="mobile-whatsapp-fab"
+      id="floatingWhatsapp"
+      rel="noopener"
+      target="_blank"
+      >WhatsApp</a
+    >
+    <script defer="" src="script.js"></script>
+  </body>
+</html>
